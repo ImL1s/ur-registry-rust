@@ -23,6 +23,18 @@ The original UR Registry implementation supports Bitcoin, Ethereum, Solana, and 
 
 ---
 
+## 🎯 How It Fits (Project Scope)
+
+If you are building a crypto wallet, this library sits **between your App Logic and the user interface**. It takes raw transaction data and converts it into the standard "Animated QR" format (UR) that hardware wallets understand.
+
+![Project Positioning Diagram](assets/positioning.png)
+
+1.  **Mobile Wallet App**: Your application where the user initiates a transaction.
+2.  **UR Registry Library (This Project)**: The "Gear" that handles the complex encoding (CBOR/Protobuf) to standard BC-UR format.
+3.  **Animated QR Code**: The final visual output that is scanned by the hardware wallet.
+
+---
+
 ## 🏗 Architecture
 
 This project bridges the gap between high-level mobile applications (Flutter) and low-level cryptographic operations (Rust) using a robust FFI layer.
