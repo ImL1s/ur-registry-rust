@@ -8,6 +8,8 @@
 
 > **A specialized fork of [KeystoneHQ/ur-registry-rust](https://github.com/KeystoneHQ/ur-registry-rust) enabling TRON blockchain support for air-gapped hardware wallets.**
 
+[English](./README.md) | [繁體中文](./README_TW.md) | [日本語](./README_JA.md) | [한국어](./README_KO.md)
+
 ---
 
 ## 🚀 Overview
