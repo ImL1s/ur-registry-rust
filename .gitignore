@@ -4,3 +4,4 @@
 .idea
 #interfaces/ur_registry_flutter/android/src/main/jniLibs/
 #interfaces/ur_registry_flutter/ios/libur_registry_ffi.a
+batch_work/
